@@ -9,7 +9,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const Index = () => {
   const [transactions, setTransactions] = useState([
-    { id: uuidv4(), date: "2023-10-01", amount: 200, type: "Income", category: "Nike" },
+    { id: uuidv4(), date: "2020-10-01", amount: 200, type: "Income", category: "Nike" },
     { id: uuidv4(), date: "2023-10-02", amount: 150, type: "Expense", category: "Adidas" },
   ]);
   const [newTransaction, setNewTransaction] = useState({ date: "", amount: "", type: "", category: "" });
